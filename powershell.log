@@ -1,0 +1,85 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260214162906
+Username: EC2AMAZ-DLDK80U\Administrator
+RunAs User: EC2AMAZ-DLDK80U\Administrator
+Configuration Name: 
+Machine: EC2AMAZ-DLDK80U (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5104
+PSVersion: 5.1.26100.32370
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.32370
+BuildVersion: 10.0.26100.32370
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Logs\powershell.log
+PS C:\Windows\system32> curl.exe bokunimo.net/html
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://bokunimo.net/html">here</a>.</p>
+</body></html>
+PS C:\Windows\system32> Start-Transcript -Path "C:\Logs\powershell.log" -Append
+Transcript started, output file is C:\Logs\powershell.log
+PS C:\Windows\system32> curl.exe bokunimo.net/html
+
+PS C:\Windows\system32> curl.exe bokunimo.net/html -v
+
+PS C:\Windows\system32> cd ..
+PS C:\Windows> cd ..
+PS C:\> cd .\Users\Administrator\
+PS C:\Users\Administrator> cd .\Desktop\
+PS C:\Users\Administrator\Desktop> cd .\tools\
+PS C:\Users\Administrator\Desktop\tools> ls
+
+
+    Directory: C:\Users\Administrator\Desktop\tools
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+------         2/14/2026   4:42 PM           2896 tcp_server.py
+------         2/14/2026   4:42 PM          15691 udp_monitor_chart.py
+
+
+PS C:\Users\Administrator\Desktop\tools> py .\tcp_server.py
+
+PS C:\Users\Administrator\Desktop\tools> py .\tcp_server.py
+
+PS C:\Users\Administrator\Desktop\tools> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\Administrator\Desktop\tools> py .\tcp_server.py
+
+PS C:\Users\Administrator\Desktop\tools> ls
+
+
+    Directory: C:\Users\Administrator\Desktop\tools
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+------         2/14/2026   4:42 PM           2896 tcp_server.py
+------         2/14/2026   4:42 PM          15691 udp_monitor_chart.py
+
+
+PS C:\Users\Administrator\Desktop\tools> cd ..
+PS C:\Users\Administrator\Desktop> py .\ex4_http_srv.py
+
+PS C:\Users\Administrator\Desktop> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\Administrator\Desktop> py .\ex4_http_srv.py
+
+PS C:\Users\Administrator\Desktop> py .\ex4_http_srv.py
+
+PS C:\Users\Administrator\Desktop> py .\ex4_http_srv.py
+
+PS C:\Users\Administrator\Desktop> py .\ex4_http_srv.py
+
+PS C:\Users\Administrator\Desktop> py .\ex4_http_srv.py
+
